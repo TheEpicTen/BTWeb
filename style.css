@@ -1,13 +1,47 @@
-.header {
-    padding: 60px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
-    font-size: 30px;
-  }
+body {
+  background-color:#FFFFFF;
+  color:black; }
+	  h1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+	  h2 {
+      font-family: Tahoma, Verdana, Geneva, sans-serif;
+    }
+	  h3 {
+      font-family: Geneva, Verdana, Tahoma, sans-serif;
+    }
+a:link {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
 
+a:visited {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
 
-  /* The side navigation menu */
+a:hover {
+  color: white;
+  background-color: black;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+	table, th, td {
+  border: 10px solid black;
+  border-collapse: collapse;
+}
+.Header {
+  background-color: black;
+  color:white;
+}
+/* The side navigation menu */
 .sidenav {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
@@ -61,4 +95,5 @@
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
 }
