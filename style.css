@@ -55,7 +55,7 @@ a:active {
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
-/* Style the sidenav links and the dropdown button */
+/* Style the nav links and the dropdown button */
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
