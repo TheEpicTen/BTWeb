@@ -40,6 +40,7 @@ a:active {
 .Header {
   background-color: black;
   color:white;
+  display: flex;
 }
 /* The side navigation menu */
 .sidenav {
