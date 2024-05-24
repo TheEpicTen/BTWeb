@@ -40,7 +40,8 @@ a:active {
 .Header {
   background-color: black;
   color:white;
-  display: flex;
+  float: left;
+  clear: none;
 }
 /* The side navigation menu */
 .sidenav {
